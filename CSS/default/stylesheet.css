@@ -1,0 +1,1162 @@
+/* andreas01 - an open source xhtml/css website layout by Andreas Viklund  - http://andreasviklund.com - Free to use for any purpose as long as the proper credits are given to the original author.
+
+Version: 2.0 (Jun 25, 2006)
+
+Screen layout: */
+
+
+
+/***** Body and main container *****/
+
+body {
+
+	margin:0 auto;
+
+	padding:0;
+
+	font:76% Verdana,Tahoma,Arial,sans-serif;
+
+	background:#eaeaea url(img/bg.gif) top center repeat-y;
+
+	color:#303030;
+
+}
+
+
+
+#obsah
+
+{
+
+	color: #3A2B0A;
+
+	margin: auto;
+
+	padding: 0;
+
+	width: 760px;
+
+}
+
+
+
+#hlavicka
+
+{
+
+	margin-top:5px;
+
+	height: 180px;
+
+	background-image:url(img/header.jpg);
+
+}
+
+
+
+#hlavicka-obsah
+
+{
+
+	padding: 10px 0 0 10px;
+
+	margin: 5px auto 0 auto;
+
+	height: 165px;
+
+}
+
+#hlavicka-obsah a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#language-menu
+
+{
+
+	position:relative;
+
+	float:right;
+
+	width: 30px;
+
+	right: 5px;
+
+	bottom: 100px;
+
+}
+
+
+
+#language-menu img
+
+{
+
+	border: 2px solid white;
+
+	margin-bottom: 2px;
+
+}
+
+
+
+#language-menu a:hover img
+
+{
+
+	/*border: 5px solid gray;
+
+	border-right:  none;*/
+
+}
+
+
+
+
+
+/*horizontalni panel*/
+
+#navbar
+
+{
+
+	height: 10px;
+
+	margin: 5px 0px 5px 0px;
+
+	text-align: right;
+
+}
+
+
+
+#navbar img
+
+{
+
+	border:none;
+
+	margin-left: 10px;
+
+}
+
+
+
+/*-------Konec-------*/
+
+
+
+#hlavnipanel
+
+{
+
+	margin:0 0 0 0px;
+
+	padding: 20px 0 0 0;
+
+	min-height: 500px;
+
+	_height: 500px;
+
+}
+
+
+
+/*postranni menu*/
+
+#levypanel
+
+{
+
+	float: left;
+
+	clear: left;
+
+	width: 150px;
+
+	border-right: 1px solid #D5D5D5;
+
+	margin:0 0 5px;
+
+	padding: 0;
+
+}
+
+
+
+#levypanel menu.block
+
+{
+
+width:140px;
+
+margin:0 0 10px 0;
+
+padding:0;
+
+list-style:none;
+
+}
+
+
+
+#levypanel menu.block li {
+
+width:140px;
+
+padding:0;
+
+line-height:1.4em;
+
+display:inline-block;
+
+}
+
+
+
+#levypanel menu.block li a {
+
+background-color:#f4f4f4;
+
+color:#505050;
+
+font-weight:bold;
+
+width:130px;
+
+float:left;
+
+margin-bottom:10px;
+
+padding:5px 1px 5px 5px;
+
+border-left:4px solid #cccccc;
+
+border-bottom: none;
+
+text-decoration:none;
+
+}
+
+
+
+#levypanel menu.block li a:hover
+
+{
+
+background-color:#eaeaea;
+
+border-left:4px solid #286ea0;
+
+color:#505050;
+
+}
+
+
+
+#levypanel menu.block li a.menu_active
+
+{
+
+background-color:#eaeaea;
+
+border-left:4px solid #286ea0;
+
+color:#505050;
+
+border-bottom: 1px solid #286ea0;
+
+}
+
+
+
+#search-box
+
+{
+
+	margin-top: 25px;
+
+	border-left:4px solid #cccccc;
+
+}
+
+
+
+#levypanel input.search
+
+{
+
+	width: 130px;	
+
+}
+
+
+
+#anketa
+
+{
+
+	width: 140px;
+
+	background-color:#eaeaea;
+
+	border-left:4px solid #cccccc;
+
+	padding: 5px 0 5px 0;
+
+	margin-top: 25px;
+
+}
+
+
+
+#anketa a, div.anketa a:visited 
+
+{
+
+	text-decoration: none;
+
+	border:0;
+
+}
+
+
+
+#anketa a:hover 
+
+{
+
+	border-bottom: 1px dashed black;
+
+	color: Red;
+
+}
+
+
+
+
+
+#anketa p.anketa_head 
+
+{
+
+	font-weight: bolder;
+
+}
+
+
+
+
+
+/*-------Konec-------*/
+
+
+
+
+
+/*-------obsahova cast webu-------*/
+
+#hlavnipanel-obsah
+
+{
+
+	width: 590px;
+
+	float: right;
+
+	margin: 0 5px 0 10px;
+
+	padding: 0;
+
+	color: Black;
+
+	text-align: justify;
+
+}
+
+
+
+	/*Hlavicka clanku*/
+
+	
+
+	#hlavnipanel-obsah table.article_info td
+
+	{
+
+	
+
+	}
+
+
+
+	#hlavnipanel-obsah table.article_info td.calendar
+
+	{
+
+		width: 15px;
+
+		background-image: url(calendar.gif);
+
+		background-repeat: no-repeat;
+
+		background-position: left;
+
+		padding-right: 0;
+
+	}
+	
+		#hlavnipanel-obsah table.article_info td.comments
+
+	{
+
+		width: 15px;
+
+		background-image: url(comment.gif);
+
+		background-repeat: no-repeat;
+
+		background-position: left;
+
+		padding-right: 0;
+
+	}
+
+
+
+	#hlavnipanel-obsah table.article_info td.category
+
+	{
+
+		width: 15px;
+
+		background-image: url(Folder.gif);
+
+		background-repeat: no-repeat;
+
+		background-position: left;
+
+		padding-right: 0;
+
+	}
+
+	
+
+	#hlavnipanel-obsah table.article_info a,table.article_info a:visited 
+
+	{
+
+		color: Blue;
+
+		text-decoration:none;
+
+		border-bottom: 0;
+
+	}
+
+	
+
+	#hlavnipanel-obsah table.article_info a:hover
+
+	{
+
+		border-bottom:1px dashed black;
+
+		font: inherit;
+
+	}
+
+
+
+	#hlavnipanel-obsah table.article_info td.user
+
+	{
+
+		width: 15px;
+
+		background-image: url(User.gif);
+
+		background-repeat: no-repeat;
+
+		background-position: left;
+
+		padding-right: 0;
+
+	}
+
+
+
+	#hlavnipanel-obsah table.article_info td.eye
+
+	{
+
+		width: 15px;
+
+		background-image: url(eye.gif);
+
+		background-repeat: no-repeat;
+
+		background-position: left;
+
+		padding-right: 0;
+
+	}
+
+
+
+	#hlavnipanel-obsah table.article_info td
+
+	{
+
+		width: auto;
+
+		text-align: center;
+
+		font-style: italic;
+
+		text-align: left;
+
+		padding-right: 10px;
+
+	}
+    
+
+	
+
+	/*---------------KONEC-------------*/
+
+
+
+	/*Navstevni kniha*/
+
+	#hlavnipanel-obsah div.gb_error
+
+	{
+
+	width: 100%;
+
+	padding:5px;
+
+	background-color: Red;
+
+	color: White;
+
+	font-weight: bolder;
+
+	margin: 0px 0px 15px 0px;
+
+	}
+
+
+
+	#hlavnipanel-obsah div.prispevek
+
+	{
+
+	border-left:4px solid #286ea0;
+
+	padding-left: 5px;
+
+	background-color:#eaeaea;
+
+	}
+
+
+
+	#hlavnipanel-obsah form.gb_form input, form.gb_form textarea
+
+	{
+
+	border: 1px solid gray;
+
+	}
+
+	
+
+	#hlavnipanel-obsah form.gb_form input:focus, form.gb_form textarea:focus
+
+	{
+
+	border: 1px solid orange;
+
+	}
+
+
+
+	#hlavnipanel-obsah form.gb_form input.SubmitButton
+
+	{
+
+	border: 1px solid black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah div.gb_form_box
+
+	{
+
+		float:left;
+
+		width: 300px;
+
+	}
+
+	
+
+	
+
+	#hlavnipanel-obsah div.gb_form_info_box
+
+	{
+
+		float:right;
+
+		width: 200px;
+
+		margin-right:20px;
+
+		padding-left: 5px;
+
+		border-left: 2px solid orange;
+
+	}
+
+	
+
+	#hlavnipanel-obsah div.gb_form_info_box p
+
+	{
+
+		padding:0;
+
+		margin:0;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h3.gb_desc
+
+	{
+
+		display:block;
+
+		border-bottom:1px solid black;
+
+	}
+
+	
+
+	/*-------Konec-------*/
+
+	
+
+	/*Vypis kategorie*/
+
+	#hlavnipanel-obsah div.article_box
+
+	{
+
+		margin-bottom: 20px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h2.titulek_clanku a, h2.titulek_clanku a:visited
+
+	{
+
+		display:block;
+
+		background-color: white;
+
+		text-decoration: none;
+
+		font-size: large;
+
+		color: Black;
+
+		border-bottom: 1px dotted black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h2.titulek_clanku a:hover 
+
+	{
+
+		background-color: #f4f4f4;
+
+		border-bottom: 1px solid black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah .titulek_clanku
+
+	{
+
+		margin:5px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah table.article_info 
+
+	{
+
+		margin-bottom: 5px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah div.vypis_strucne p
+
+	{
+
+		margin: 5px;
+
+		margin-top:0;
+
+		margin-bottom:10px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah a.vypis_pokracovat
+
+	{
+
+		margin-left: 5px;
+
+		text-decoration: none;
+
+		color: black;
+
+		font-weight: bolder;
+
+		border-bottom: 0;
+
+	}
+
+	
+
+	#hlavnipanel-obsah a.vypis_pokracovat:hover 
+
+	{
+
+		color: red;
+
+	}
+
+	
+
+	
+
+	/*-------Konec-------*/
+
+	
+
+	/*Zobrazeny text*/
+
+	
+
+	#hlavnipanel-obsah h2.titulek
+
+	{
+		margin-top:0;
+		display:block;
+		border-bottom: 1px dotted black;
+	}
+
+	
+
+	#hlavnipanel-obsah p cite
+
+	{
+		display:block;
+		/*
+		border-left: 5px solid #cccccc;
+		border-right: 5px solid #cccccc;
+		*/
+		padding: 10px;
+		background-image: url(quote.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 50px;
+	}
+
+	
+
+	#hlavnipanel-obsah p abbr
+
+	{
+
+		font-style: italic;
+
+		border-bottom: 1px dashed black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah img
+
+	{
+
+		margin: 5px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah a, a:visited
+
+	{
+
+		text-decoration: none;
+
+		border-bottom:1px dotted blue;
+
+		color: blue;
+
+	}
+
+	
+
+	#hlavnipanel-obsah a:hover
+
+	{
+
+		font-weight:bold; 
+
+	}
+
+	
+
+	#hlavnipanel-obsah hr
+
+	{
+
+		border: 1px solid silver;
+
+	}
+    
+    #hlavnipanel-obsah div.inlinecode
+    {
+        display:block;
+        background-color:lightgrey;
+        padding: 10px;
+        padding-left: 30px;
+        border-left: 3px solid black;
+        font-style: italic;
+        font-size: medium;
+        
+    }
+
+	/*-------Konec-------*/
+
+	
+
+	
+
+	/*Komentare*/
+	#hlavnipanel table.komentare_table
+	{
+		width:100%;
+	}
+	
+
+	#hlavnipanel-obsah fieldset.komentare_form
+
+	{
+
+		border: 0;
+
+		font-weight: bold;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h4.comment_desc
+
+	{
+
+		display: block;
+
+		border-bottom: 1px solid black;
+
+		font-size: 18px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah fieldset.komentare_form input,fieldset.komentare_form textarea 
+
+	{
+
+		border: 1px solid silver;
+
+	}
+
+	
+
+	#hlavnipanel-obsah tr.komentare_radek
+
+	{
+
+		background-color: silver;
+
+	}
+
+	
+
+	#hlavnipanel-obsah td.komentare_radek_odkaz
+
+	{
+
+		text-align: right;
+
+	}
+
+	
+
+	#hlavnipanel-obsah tr.komentare_radek a
+
+	{
+
+		color:blue;
+
+		text-decoration: none;
+
+		border:0;
+
+	}
+
+	/*-------Konec-------*/
+
+	
+
+	
+
+	/*Kontaktni formular*/
+
+	
+
+	#hlavnipanel-obsah fieldset.contact_form
+
+	{
+
+		border: none;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h4.contact_form_error_message
+
+	{
+
+		color: Red;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h3.contact_form_title
+
+	{
+
+		display: block;
+
+		border-bottom: 1px dotted black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah fieldset.contact_form input, fieldset.contact_form textarea 
+
+	{
+
+		border: 1px solid silver;
+
+	}
+
+	
+
+	#hlavnipanel-obsah fieldset.contact_form input.SubmitButton
+
+	{
+
+		border: 1px solid black;
+
+		font-style: inherit;
+
+	}
+
+	
+
+	
+
+	/*-------Konec-------*/
+
+	
+
+	
+
+	/*Fotogalerie*/
+
+	#hlavnipanel-obsah div.galerie_list
+
+	{
+
+		padding: 0 0 5px 0;
+
+		margin-bottom: 5px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah div.galerie_list img
+
+	{
+
+		border: 5px solid black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h2.galerie-nadpis
+
+	{
+
+		border-bottom:1px dotted black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h3.galerie-nadpis
+
+	{
+
+		font-size: 12px;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h2.galerie-nadpis a
+
+	{
+
+		color: black;
+
+	}
+
+	
+
+	#hlavnipanel-obsah h2.galerie-nadpis a:hover
+
+	{
+
+		color: red;
+
+	}
+
+	
+
+	#hlavnipanel-obsah div.galerie_list a
+
+	{
+
+		text-decoration: none;
+
+		border:0;
+
+	}
+
+	
+
+	#hlavnipanel-obsah div.galerie_list table
+
+	{
+
+		text-align: center;
+
+	}
+
+	/*-------Konec-------*/
+
+
+
+
+
+/*-------Konec-------*/
+
+#paticka
+
+{
+
+	clear:both;
+
+	margin:0 auto;
+
+	padding:0px 0 20px;
+
+	border-top:1px solid #cccccc; 
+
+	/*#f0f0f0;*/
+
+	width:760px;
+
+	text-align:center;
+
+	color:#808080;
+
+	background:#ffffff;
+
+	font-size:0.9em;
+
+	height: 30px;
+
+}
+
+
+
+
+
+#paticka-obsah
+
+{
+
+	
+
+}
+
+
+
+.cleaner
+
+{
+
+	clear:both;
+
+}

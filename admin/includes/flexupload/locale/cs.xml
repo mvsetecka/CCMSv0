@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+	<!-- error messages -->
+	<error>Chyba!</error>
+	<io_error>IO Chyba!</io_error>
+	<sec_error>Bezpečnostní chyba!</sec_error>
+	<error_browse>Soubor nenalezen!</error_browse>
+	<error_upload>Chyba nahrávání souborů!</error_upload>
+	<error_http>HTTP Chyba (%1)</error_http>
+		
+	<!-- warnings -->					
+	<warning>Varování!</warning>
+	<warning_tooManyFiles>Můžete vložit maximálně %0 souborů</warning_tooManyFiles>
+	<warning_filesize>Soubor je příliš velký!</warning_filesize>
+		
+	<!-- labels of the progressbars -->
+	<progressFile>%0 z %1 přeneseno</progressFile>
+	<progressTotal>Přenáším %0. soubor z %1</progressTotal>
+	
+	<!-- headlines of the grid -->
+	<file>Soubor</file>
+	<type>Typ</type>
+	<size>Velikost</size>
+	<status>Stav</status>
+	
+	<!-- buttons -->
+	<browse>Procházet</browse>
+	<remove>Odebrat</remove>
+	<upload>Nahrát</upload>
+	<stop>Přerušit</stop>
+</locale>

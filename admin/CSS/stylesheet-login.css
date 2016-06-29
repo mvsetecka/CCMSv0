@@ -1,0 +1,61 @@
+@media screen {
+
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #FFD700;
+	}
+	
+	#header{
+		width: 100%;
+		height: 70px;
+		background-color: #FF8C00;
+		text-align: center;
+		padding-top: 20px;
+		border-bottom: 2px solid black;
+	}
+	
+	#header h1
+	{
+		margin: 0;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+	
+	#hlaseni
+	{
+		background-color: Red;
+		color: White;
+		width: 100%;
+		height: 30px;
+		text-align: center;
+		border-bottom: 2px solid black;
+		font-family: sans-serif;
+		padding-top: 10px;
+	}
+	
+	#content{
+		margin-top: 25px;
+		width: 100%;
+		height: 200px;
+		text-align: center;
+	}
+	
+	#content fieldset.content-fieldset{
+		width: 200px;
+		margin:0 auto 0 auto;
+		border: 2px solid black;
+		text-align: center;
+		background-color: Orange;
+	}
+	
+	#content .text{
+		border: 1px solid black;
+	}
+	
+	#content .text_label{
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size: large;
+	}
+	}
+	
+}
